@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(94, 99, 33);
+}
+.container{
+    max-width: 1000px;
+    margin-left:80px;
+    margin-right:80px;
+    background-color: rgb(180, 209, 146);
+    padding: 20px;
+} 
+header{
+
+}
+.profile{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float:left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2{
+    color: #062627;
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-weight: bold;;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: rgb(189, 142, 15);
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/*
+Personal-Section
+*/
+#personal-section{
+    height: 100px;
+    
+
+}
+
+.content{
+    margin: 10px;
+}
+
+.left{
+    width:30%;
+    float:left;
+}
+
+.right{
+    width:70%;
+    float:left;
+    color : #124647;
+    
+}
+.common-hr{
+    border: solid black 1px;
+    border-botton : none;
+    width :100%;
+    margin : 20px  auto;
+}
+
+/*
+work-section
+*/
+#work-section{
+    height: 250px;
+    
+
+}
+
+.content{
+    margin: 10px;
+
+}
+
+.common-hr{
+    border-bottom: none;
+    border: solid black 1px;
+    width :100%;
+    
+}
+/*
+Skills
+*/
+#Skills-section{
+    height: 115px;
+
+}
+.skills{
+
+}
+.left-skills{
+    width:30%;
+    float: left;;
+
+}
+.right-skills{
+    width:70%;
+    float: left;
+    color:#1b393a;
+}
+.common-hr{
+    border: solid black 1px;
+    border-botton : none;
+    width :100%;
+    margin : 10px  auto;
+}
+
+.Fotter-Container{
+    
+    padding:50px;
+    text-align: center;
+    
+}
+.Fotter-Container a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin 20 px;
+}
+.Fotter-Container p{
+    color: white;
+}
+.div-clear{
+    background-color: black;
+}
+
